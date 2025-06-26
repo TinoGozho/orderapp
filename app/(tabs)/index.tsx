@@ -1,8 +1,9 @@
 import { useRouter } from 'expo-router';
-import { signInWithEmailAndPassword } from 'firebase/auth';
+import { signInWithEmailAndPassword } from "firebase/auth";
 import { useState } from 'react';
 import { Alert, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
-import { auth } from '../firebase/firebaseConfig'; // 
+import { auth } from '../../firebase/firebaseConfig'; // Adjust path as needed
+
 
 
 export default function LoginScreen() {

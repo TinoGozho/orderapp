@@ -11,7 +11,9 @@ import {
 } from 'react-native';
 
 import { createUserWithEmailAndPassword } from 'firebase/auth';
-import { auth } from '../firebase/firebaseConfig'; // 
+import { auth } from '../../firebase/firebaseConfig'; // Adjust path as needed
+
+ 
 
 const restaurantList = ['Ocean Grill', 'Pasta Palace', 'Burger Bay'];
 
