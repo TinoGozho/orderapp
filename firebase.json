@@ -15,7 +15,6 @@
       ]
     }
   ],
-{
   "hosting": {
     "public": "web-dashboard/build",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
@@ -24,5 +23,3 @@
     ]
   }
 }
-
-
